@@ -34,15 +34,12 @@ Make sure not to put your code into the comments, because then nothing will happ
     border: 3px solid green;
     border-radius: 8px;
     text-decoration: underline;
-    /* Style me! Change my border, set a border radius or try out other styles. :) */
 }
 
 .button2 {
     background-color: rgb(0, 255, 26);
     color: #008b8b;
     border: 1px solid hsl(0, 100%, 50%);
-
-    /* Style me! Change my color or background-color, or both! You can experiment with different color formats here, like HEX, RGB, etc. */
 }
 
 .button3 {
@@ -52,8 +49,6 @@ Make sure not to put your code into the comments, because then nothing will happ
     color: #ff00ee;
     background: rgb(255, 196, 0);
     text-transform: uppercase;
-
-    /* Style me! You can test out changing the font, font size, ...*/
 }
 
 .button4 {
@@ -62,8 +57,4 @@ Make sure not to put your code into the comments, because then nothing will happ
     color: #fff;
     font-size: 40px;
     text-shadow: 2px 2px 10px #ae0e89;
-
-    /* Style me! Can you add a shadow to this button? Try playing around with shadow properties - you can even change the shadow color, size, and more. */
 }
-
-/* Feel free to play around with other properties, too. */
