@@ -65,7 +65,7 @@ section {
 }
 
 section.favourites {
-    border-left: 5px solid blue;
+    border-left: 5px solid gold;
 }
 
 /* ------- Headings Part 2 ------- */
@@ -79,7 +79,14 @@ section.favourites {
 */
 
 .subtitle {
-    /* Your solution */
+    border-left: 3px solid gold;
+    border-right: 3px solid gold;
+    padding: 0 10px 0 10px;
+    display: inline;
+}
+section.favourites .subtitle {
+    border-left: 3px solid orange;
+    border-right: 3px solid orange;
 }
 
 /* ------- List ------- */
