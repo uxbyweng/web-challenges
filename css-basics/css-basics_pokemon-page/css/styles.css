@@ -5,15 +5,20 @@
 /* Task 1: First, we want to adjust how the size of our elements is calculated in CSS. Do you know how to switch from "content-box" to "border-box"? */
 
 /* Your solution */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
 /* Task 2: Let's work on some basic stylings that we want to apply to all elements in your code via inheritance. Which selector do we need for this? */
 
 /* Add selector */
  {
-  font-family: monospace;
-  font-size: 1rem;
-  line-height: 1.5;
-  background-color: LemonChiffon;
+    font-family: monospace;
+    font-size: 1rem;
+    line-height: 1.5;
+    background-color: LemonChiffon;
 }
 
 /* ------- Headings Part 1 ------- */
@@ -31,7 +36,7 @@
 */
 
 .title {
-  /* Your solution */
+    /* Your solution */
 }
 
 /* ------- Sections ------- */
@@ -45,7 +50,7 @@
 */
 
 section {
-  /* Your solution */
+    /* Your solution */
 }
 
 /* ------- Headings Part 2 ------- */
@@ -59,7 +64,7 @@ section {
 */
 
 .subtitle {
-  /* Your solution */
+    /* Your solution */
 }
 
 /* ------- List ------- */
@@ -68,20 +73,20 @@ section {
 
 /* Add selector */
  {
-  list-style: "🧡";
-  padding-left: /* Add value */ ;
+    list-style: "🧡";
+    padding-left: /* Add value */ ;
 }
 
 /* Add selector */
  {
-  padding-left: /* Add value */ ;
+    padding-left: /* Add value */ ;
 }
 
 /* ------- The End -------- */
 
 .image-fluid {
-  width: 100%;
-  height: auto;
+    width: 100%;
+    height: auto;
 }
 
 /* Note: After finishing all tasks, this class should also work. The image should adjust its size flexibly according to the width of the viewport. */
