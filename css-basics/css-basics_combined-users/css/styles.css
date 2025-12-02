@@ -83,6 +83,15 @@ aside .location {
     font-size: 10px;
 }
 
+li .user .bio {
+    display: none;
+}
+
+li .user .location {
+    color: darkslategray;
+    text-align: left;
+}
+
 /*
   Part 1
 
