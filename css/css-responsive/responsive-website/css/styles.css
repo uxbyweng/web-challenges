@@ -286,6 +286,9 @@ CSS based on conditions such as viewport width, etc. */
         height: calc(25vw);
         box-shadow: 0px var(--inky-black);
     }
+    .product-card:last-child {
+        margin: 0 0 20px 0;
+    }
     .card-section {
         display: flex;
         justify-content: center;
