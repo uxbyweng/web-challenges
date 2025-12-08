@@ -237,7 +237,7 @@ CSS based on conditions such as viewport width, etc. */
 
 /* Media Query Tablet */
 /* --- */
-@media screen and (min-width: 900px) and (orientation: portrait) {
+@media screen and (min-width: 900px) {
     .card-section {
         display: flex;
         justify-content: center;
@@ -294,6 +294,7 @@ CSS based on conditions such as viewport width, etc. */
         justify-content: center;
         flex-direction: row;
         flex-wrap: wrap;
+        align-items: start;
     }
     .product-card {
         width: 45%;
@@ -302,6 +303,7 @@ CSS based on conditions such as viewport width, etc. */
     .intro-text {
         align-self: flex-start;
         width: 45%;
+        height: 70%;
     }
 }
 /* --- */
