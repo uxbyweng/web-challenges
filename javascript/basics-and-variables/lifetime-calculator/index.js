@@ -21,5 +21,9 @@ const currentAge = Number(process.argv[2]); // This takes the `<age>` entered in
 
 console.log("Your current age is: " + currentAge);
 
-// 1. Calculate number of days lived
+// 1. Calculate days lived (number)
 const daysLived = currentAge * 365;
+
+// 2. Calculate remaining days (number)
+const averageLifeSpan = 80; // average life span
+const remainingDays = averageLifeSpan * 365 - daysLived;
