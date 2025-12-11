@@ -27,3 +27,8 @@ const daysLived = currentAge * 365;
 // 2. Calculate remaining days (number)
 const averageLifeSpan = 80; // average life span
 const remainingDays = averageLifeSpan * 365 - daysLived;
+
+// 3. Calculate percentage already lived (number)
+const expectedLifeSpan = averageLifeSpan * 365;
+const percentLived = (daysLived / expectedLifeSpan) * 100;
+console.log(percentLived);
