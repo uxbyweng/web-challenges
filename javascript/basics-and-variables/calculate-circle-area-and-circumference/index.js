@@ -13,3 +13,19 @@ How can you calculate the area and circumference of a pizza - oops, I mean a cir
 
 5. Run your JavaScript program to see the calculated area and circumference of the circle with the specified radius.
 */
+
+// 1. Initialize variable
+const circleRadius = 13;
+
+// 2. Calculate circle area (Kreisfläche)
+const circleArea = Math.PI * circleRadius ** 2;
+
+// 3. Calculate circle circumference (Kreisumfang)
+const circumference = 2 * Math.PI * circleRadius;
+
+// 4. Print area and circumference-> Ausgabe als 'number'
+console.log(circleArea);
+console.log(circumference);
+
+// 5: Final formatted sentence -> Ausgabe als 'string'
+console.log(`A circle with a radius of ${circleRadius} cm has an area of ${circleArea} cm² and a circumference of ${circumference} cm.`);
