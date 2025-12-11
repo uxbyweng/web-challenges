@@ -14,3 +14,17 @@ Let's build a small program to track your savings goals!
 
 4. Run your JavaScript program to see how much money you'll have saved after the specified time period.
 */
+
+// 1. Set up variables:
+const startingBalance = 5000; // initial savings balance
+const monthlyContribution = 500; // amount of planned monthly savingsh
+const months = 12; // number of months wanting to track savings
+
+// 2. Calculate total savings
+const totalSavings = startingBalance + monthlyContribution * months;
+
+// 3. Print result
+console.log("After", months, "you'll have total savings of", totalSavings, "€");
+
+// 4. Run program
+// node index.js
