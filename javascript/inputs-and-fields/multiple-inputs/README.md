@@ -18,7 +18,7 @@ Switch the values of the two input fields when the switch button is clicked.
 
 ## Notes
 
-- You only have to touch the `./js/index.js` file.
+-   You only have to touch the `./js/index.js` file.
 
 ## Development
 
@@ -33,4 +33,4 @@ Run `npm run start` to start a development server and open [localhost:3000](http
 
 You can use the following command:
 
-- `npm run start` to start a development server
+-   `npm run start` to start a development server
