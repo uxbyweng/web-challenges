@@ -1,13 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <title>Personal Profile Form</title>
     <link rel="stylesheet" href="./css/styles.css" />
-  </head>
-  <body></body>
+</head>
+
+<body>
+    <h1 id="title">
+        Create your Personal Profile
+    </h1>
+    <p id="description">In this form you can create your personal profile. </p>
+    <form action="#" aria-labeldby="title" aria-describedby="description">
+
+        <fieldset>
+            <legend>Personal Data</legend>
+            <label for="firstName">First Name</label>
+            <input id="firstName" name="firstName" type="text" placeholder="Erika" maxlength="50" required>
+            <label for="lastName">Last Name</label>
+            <input id="lastName" name="lastName" type="text" placeholder="Müller" minlength="2" maxlength="50" required>
+            <label for="birthday">Your Birthday</label>
+            <input type="date" name="birthday" id="birthday" required>
+        </fieldset>
+        <p>
+            Can you tell us a little bit more? We want to annoy you with unwanted ads.
+        </p>
+        <fieldset>
+            <legend>Furter Information</legend>
+            <label for="firstName">Favourite Color:</label>
+            <input type="color" value="#E5430F">
+
+            <label for="favouritePet">What's your favourite pet?</label>
+            <select id="favouritePet" type="select" name="favouritePet" value="" required>
+                <option value="" disabled selected>-- Please choose an option --</option>
+                <option value="cow">Cow</option>
+                <option value="cat">Cat</option>
+                <option value="horse">Horse</option>
+                <option value="dog">Dog</option>
+            </select>
+        </fieldset>
+        <button type="submit" value="Submit">Submit</button>
+    </form>
+</body>
+
 </html>
