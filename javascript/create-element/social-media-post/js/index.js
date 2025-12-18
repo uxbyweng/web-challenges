@@ -44,4 +44,3 @@ footer.append(button);
 
 const buttons = document.querySelectorAll("button");
 buttons.forEach(button => button.addEventListener("click", handleLikeButtonClick));
-console.log(buttons);
