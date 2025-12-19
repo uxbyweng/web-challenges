@@ -40,7 +40,9 @@ const loaderContainer = document.querySelector("[data-js=loaderContainer]");
 let loaderActive = false;
 
 toggleLoaderButton.addEventListener("click", () => {
-    // Add your solution below
+    console.log(loaderActive);
+    loaderContainer.classList.toggle("active");
+    loaderActive = true;
 });
 
 /*  -----------------------------------------------------------
@@ -50,5 +52,5 @@ const slideInButton = document.querySelector("[data-js=slideInButton]");
 const slideInBox = document.querySelector("[data-js=slideInBox]");
 
 slideInButton.addEventListener("click", () => {
-    // Add your solution below
+    slideInBox.classList.toggle("active");
 });

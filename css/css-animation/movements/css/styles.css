@@ -58,11 +58,25 @@ The button that you are working with as an id attribute set in  #hoverButton*/
     visibility: hidden;
 
     /* Write here your solution */
+    animation: rotateLoader 3s linear infinite;
+}
+
+@keyframes rotateLoader {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(100deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 .loader-container.active {
     opacity: 1;
     visibility: visible;
+    background-color: transparent;
 }
 
 .loader {
@@ -83,6 +97,10 @@ The button that you are working with as an id attribute set in  #hoverButton*/
             Challenge 4: Slide-in Div
 ---------------------------------------------------------------- */
 
+/* .slide-container {
+    overflow: hidden;
+} */
+
 .slideInBox {
     position: absolute;
     top: 0;
@@ -97,7 +115,15 @@ The button that you are working with as an id attribute set in  #hoverButton*/
     font-weight: bold;
     color: #333;
     margin-top: 15px;
+    /* opacity: 0;
+    visibility: hidden; */
     /* Write here your solution */
     /* Hides it initially to the right */
+    transform: translateX(0px);
+
     /* Smooth slide transition */
+    transition: 1s ease-in-out;
+}
+.slideInBox.active {
+    transform: translateX(500px);
 }
