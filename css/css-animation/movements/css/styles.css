@@ -1,5 +1,4 @@
-@import './global.css';
-
+@import "./global.css";
 
 /*
 Add here the code for each challenge
@@ -34,8 +33,12 @@ Add here the code for each challenge
 /* Write here your solution for this challenge.
 The button that you are working with as an id attribute set in  #hoverButton*/
 
-
-
+.hoverButton {
+    transition: 1s ease-in-out;
+}
+.hoverButton:hover {
+    transform: scale(1.2);
+}
 
 /*  -----------------------------------------------------------
             Challenge 3: Loading Spinner Toggle
@@ -55,9 +58,7 @@ The button that you are working with as an id attribute set in  #hoverButton*/
     visibility: hidden;
 
     /* Write here your solution */
-
 }
-
 
 .loader-container.active {
     opacity: 1;
@@ -72,11 +73,11 @@ The button that you are working with as an id attribute set in  #hoverButton*/
     height: 50px;
 
     /* Write here your solution with the spinning animation */
-
 }
 
 /* Add to the keyframes the transformation */
-@keyframes spin {}
+@keyframes spin {
+}
 
 /*  -----------------------------------------------------------
             Challenge 4: Slide-in Div
@@ -95,7 +96,7 @@ The button that you are working with as an id attribute set in  #hoverButton*/
     font-size: 1.5em;
     font-weight: bold;
     color: #333;
-    margin-top:15px;
+    margin-top: 15px;
     /* Write here your solution */
     /* Hides it initially to the right */
     /* Smooth slide transition */
